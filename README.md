@@ -24,7 +24,6 @@ fastboot flash recovery twrp-*-*.img
 或者最后一条reboot命令，直接VolUp + Power，进入TWRP
 
 3. 下载安装LineageOS
-
 Download LineageOS for RedMi Note 3 (Kenzo) at   
 https://download.lineageos.org/kenzo
 (ver. 0419 till I am writing)  
@@ -34,3 +33,9 @@ https://wiki.lineageos.org/devices/kenzo/install#installing-lineageos-from-recov
 另外，我是把LingeageOS下载到U盘上，然后通过OTG安装的。
 
 4. 安装Gapps
+下载地址：http://opengapps.org/  
+我需要的是Platform ARM64, Android 7.1， 选择了aroma版，在安装过程中仅选择了小部分app。
+
+5. 安装supersu
+
+6. 第一次reboot
