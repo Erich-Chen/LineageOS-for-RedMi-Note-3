@@ -37,14 +37,24 @@ https://wiki.lineageos.org/devices/kenzo/install#installing-lineageos-from-recov
 我需要的是Platform ARM64, Android 7.1， 选择了aroma版，在安装过程中仅选择了小部分app。  
 ref. kenzo的信息：https://wiki.lineageos.org/devices/kenzo  
 
-5. 安装supersu
+5. 安装supersu  
+ref. http://www.lineageosrom.com/2017/01/download-supersuzp-and-su-removalzip.html  
+下载arm64的supersu，跟gapps一样在TWRP中安装  
 
 6. 第一次reboot
 
 7. reboot的注意事项  
 要启用全部的google服务，第一次开机时千万不要插中国的SIM卡。  
 能跳过的全部跳过。  
-a. 启用root  
-b.   
-c.   
-d. 配置一个VPN，shadowsocks也可以  
+a. 启用root，同时启用local terminal  
+b. 利用local terminal，运行这条命令，避免WiFi和Cellular上的叉号.  
+```
+su
+settings put global captive_portal_https_url https://captive.v2ex.co/generate_204
+```  
+ref. https://www.v2ex.com/t/303889  
+c. 安装LocationReportEnabler  
+    (神器，能够启用包括location history在内的google service）  
+    ref.  https://github.com/GhostFlying/LocationReportEnabler  
+d. 配置一个VPN，shadowsocks也可以  
+e. google账号，app更新，etc...   
