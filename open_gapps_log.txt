@@ -1,0 +1,141 @@
+# Begin Open GApps Install Log
+------------------------------------------------------------------
+            ROM Android version | 7.1.2
+                   ROM Build ID | lineage_kenzo-userdebug 7.1.2 N2G47E a0d98788f3
+          ROM Version increment | a0d98788f3
+                ROM SDK version | 25
+        ROM/Recovery modversion | 14.1-20170419-NIGHTLY-kenzo
+                Device Recovery | TWRP 3.1.0-0-76958ae9
+                    Device Name | kenzo
+                   Device Model | Redmi Note 3
+                    Device Type | phone
+                     Device CPU | arm64-v8a,armeabi-v7a,armeabi
+             Installer Platform | arm
+                   ROM Platform | arm64
+           Display Density Used | 480
+                   Install Type | Clean[Data Wiped]
+             Smart ART Pre-ODEX | false
+Google Camera already installed | Clean
+          FaceUnlock Compatible | true
+              VRMode Compatible | false
+       Google Camera Compatible | true
+      New Camera API Compatible | true
+          Google Pixel Features | false
+          Current GApps Version | No GApps Installed
+       Installing GApps Zipfile | /usb-otg/download/open_gapps-arm64-7.1-aroma-20170421.zip
+       Installing GApps Version | 20170421
+          Installing GApps Type | aroma
+                    Config Type | include
+             Using gapps-config | /tmp/aroma/.gapps-config
+      Remove Stock/AOSP Browser | false[NO_Chrome]
+       Remove Stock/AOSP Camera | true[default]
+        Remove Stock/AOSP Email | true[default]
+      Remove Stock/AOSP Gallery | true[default]
+     Remove Stock/AOSP Launcher | true[default]
+      Remove Stock/AOSP MMS App | true[default]
+     Remove Stock/AOSP Pico TTS | true[default]
+         Ignore Google Contacts | false
+           Ignore Google Dialer | false
+         Ignore Google Keyboard | false
+Ignore Google Package Installer | false
+          Ignore Google NFC Tag | false[TagGoogle]
+          Ignore Google WebView | false
+         Total System Size (KB) | 2539312
+         Used System Space (KB) | 1141344
+        Current Free Space (KB) | 1381584
+   Post Install Free Space (KB) | 988028   << See Calculations Below
+------------------------------------------------------------------
+# End Open GApps Install Log
+
+NOTE: The Stock/AOSP WebView was NOT removed as requested to ensure your device
+was not accidentally left with no WebViewProvider installed. If this was intentional,
+you can add 'Override' to your gapps-config to override this protection.
+
+# Begin GApps Size Calculations
+------------------------------------------------------------------
+  TYPE  |         DESCRIPTION        |      SIZE |   TOTAL
+        |         Current Free Space |   1381584 | 1381584
+ Remove |             Existing GApps | +       0 | 1381584
+ Remove |             Obsolete Files | +      24 | 1381608
+ Remove |            calculatorstock | +     392 | 1382000
+ Remove |              calendarstock | +    2528 | 1384528
+ Remove |                camerastock | +    6016 | 1390544
+ Remove |                 clockstock | +    3864 | 1394408
+ Remove |              cmsetupwizard | +       0 | 1394408
+ Remove |              contactsstock | +    6788 | 1401196
+ Remove |                      email | +    6772 | 1407968
+ Remove |              exchangestock | +    1464 | 1409432
+ Remove |           extservicesstock | +      16 | 1409448
+ Remove |             extsharedstock | +       0 | 1409448
+ Remove |                    gallery | +    8204 | 1417652
+ Remove |              keyboardstock | +   47204 | 1464856
+ Remove |                   launcher | +    1692 | 1466548
+ Remove |                        mms | +    7552 | 1474100
+ Remove |                    picotts | +    6372 | 1480472
+ Remove |          printservicestock | +      36 | 1480508
+ Remove |                  provision | +       0 | 1480508
+ Remove |        storagemanagerstock | +    3744 | 1484252
+ Remove |                   tagstock | +       0 | 1484252
+Install |                       Core | -  104224 | 1380028
+Install |           calculatorgoogle | -    1192 | 1378836
+Install |             calendargoogle | -   24036 | 1354800
+Install |               cameragoogle | -   57592 | 1297208
+Install |                clockgoogle | -    6400 | 1290808
+Install |                 cloudprint | -    3620 | 1287188
+Install |             contactsgoogle | -   10172 | 1277016
+Install |            dialerframework | -      24 | 1276992
+Install |             exchangegoogle | -     492 | 1276500
+Install |                 facedetect | -    2472 | 1274028
+Install |                 faceunlock | -   19032 | 1254996
+Install |                        gcs | -    2232 | 1252764
+Install |                      gmail | -   18704 | 1234060
+Install |                  googletts | -   21876 | 1212184
+Install |                    hotword | -     556 | 1211628
+Install |             keyboardgoogle | -   38864 | 1172764
+Install |                  messenger | -   18640 | 1154124
+Install |                     photos | -   43232 | 1110892
+Install |                 pixelicons | -     344 | 1110548
+Install |              pixellauncher | -    2472 | 1108076
+Install |         printservicegoogle | -      40 | 1108036
+Install |                     search | -   64864 | 1043172
+Install |                     speech | -   39240 | 1003932
+Install |       storagemanagergoogle | -    3720 | 1000212
+Install |                  taggoogle | -     336 |  999876
+Install |                 wallpapers | -    2632 |  997244
+        |               Buffer Space | -    9216 |  988028
+------------------------------------------------------------------
+                        Post Install Free Space |  988028
+------------------------------------------------------------------
+
+# End GApps Size Calculations
+
+# Begin User's gapps-config
+CalculatorGoogle
+CalendarGoogle
+CalSync
+CameraGoogle
+ClockGoogle
+CloudPrint
+ContactsGoogle
+DialerFramework
+ExchangeGoogle
+FaceDetect
+FaceUnlock
+GCS
+Gmail
+GoogleTTS
+Hotword
+KeyboardGoogle
+Messenger
+PackageInstallerGoogle
+PixelIcons
+PixelLauncher
+Wallpapers
+Photos
+PrintServiceGoogle
+Search
+Speech
+StorageManagerGoogle
+TagGoogle
+
+# End User's gapps-config
