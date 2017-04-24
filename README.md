@@ -38,7 +38,7 @@ https://wiki.lineageos.org/devices/kenzo/install  
   另文附上我的Gapp Log, 另外下次考虑安装google webView，替换AOSP WebView  
   
 ## 安装supersu  
-  ref. http://www.lineageosrom.com/2017/01/download-supersuzp-and-su-removalzip.html  
+  ref. https://download.lineageos.org/extras    
   下载arm64的supersu，跟gapps一样在TWRP中安装  
   
 ## 第一次reboot
