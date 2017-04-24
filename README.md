@@ -35,6 +35,7 @@ https://wiki.lineageos.org/devices/kenzo/install#installing-lineageos-from-recov
 4. 安装Gapps
 下载地址：http://opengapps.org/  
 我需要的是Platform ARM64, Android 7.1， 选择了aroma版，在安装过程中仅选择了小部分app。
+ref. kenzo的信息：https://wiki.lineageos.org/devices/kenzo  
 
 5. 安装supersu
 
