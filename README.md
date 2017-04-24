@@ -42,6 +42,7 @@ https://wiki.lineageos.org/devices/kenzo/install  
   下载arm64的supersu，跟gapps一样在TWRP中安装  
   
 ## 第一次reboot
+  没什么可说  
   
 ## 注意事项  
   要启用全部的google服务，第一次开机时千万不要插中国的SIM卡。  
