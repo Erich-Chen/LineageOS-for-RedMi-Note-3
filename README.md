@@ -34,8 +34,9 @@ https://wiki.lineageos.org/devices/kenzo/install  
   下载地址：http://opengapps.org/  
   我需要的是Platform ARM64, Android 7.1， 选择了aroma版，在安装过程中仅选择了小部分app。  
   ref. kenzo的信息：https://wiki.lineageos.org/devices/kenzo  
-  我发现安装stock版的话，电话功能不正常，因此自己选的时候不要安装google Dialer
-  另文附上我的Gapp Log, 另外下次考虑安装google webView，替换AOSP WebView  
+  我发现安装stock版的话，电话功能不正常，~~因此自己选的时候不要安装google Dialer~~
+  安装完成时其实有提示，需要主动去修改默认的电话程序改成Google Dialer
+  另文附上我的Gapp Log, 另外下次考虑安装google webView，替换AOSP WebView
   
 ## 安装supersu  
   ref. https://download.lineageos.org/extras    
